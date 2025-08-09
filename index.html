@@ -1,22 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>James Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Resume</title>
 </head>
-
 <body>
-  <h1>James's Portfolio</h1>
-  <h2>I'm a Web Developer</h2>
-  <hr />
-  <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-  <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-  <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-  <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-  <hr />
-  <a href="./public/about.html">About Me</a>
-  <a href="./public/contact.html">Contact Me</a>
-</body>
+  <!-- Replace profile.jpg with your own photo file in the same folder -->
+  <header>
+    <h1>James</h1>
+    <figure>
+      <img src="profile.jpg" alt="Profile photo of James" width="180" />
+      <figcaption>Full-stack .NET & Angular Developer</figcaption>
+    </figure>
+  </header>
 
+  <main>
+    <section id="summary">
+      <h2>Summary / Objective</h2>
+      <p>
+        Full-stack developer with ~2.7 years of experience building web applications using
+        ASP.NET Core, Angular and SQL Server. Interested in Azure-based microservices,
+        scalable backend systems and modern front-end frameworks. Seeking roles where I can
+        apply strong problem solving, Git-based workflows and continuous delivery practices.
+      </p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Bachelor of Engineering (Mechatronics)</strong> — Anna University
+          <br />
+          <small>2018 — 2022</small>
+        </li>
+        <!-- Add more degrees here if needed -->
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+
+      <article>
+        <h3>Software Developer — Employer Name</h3>
+        <p><em>Dates: 2022 — Present </em></p>
+        <ul>
+          <li>Developed backend services using ASP.NET Core and Web API.</li>
+          <li>Built front-end UIs with Angular (components, routing, services).</li>
+          <li>Worked with SQL Server (schema design, stored procedures, performance tuning).</li>
+          <li>Participated in Git-based team workflow; created CI/CD pipelines (basic Azure DevOps or GitHub Actions).</li>
+          <li>Collaborated on microservice design and containerization (Docker) as part of migration to cloud-ready architecture.</li>
+        </ul>
+      </article>
+
+      <!-- Add more jobs as separate <article> blocks -->
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages & Frameworks: C#, ASP.NET Core, Entity Framework, Angular</li>
+        <li>Databases: Microsoft SQL Server (experience with local instance and database design)</li>
+        <li>Cloud & DevOps: Familiar with Azure concepts, microservices, Docker, CI/CD</li>
+        <li>Tools: Git, Visual Studio, VS Code, Postman</li>
+        <li>Other: Problem solving, data structures & algorithms (DSA practice), Agile/Scrum</li>
+      </ul>
+    </section>
+
+    <section id="certifications">
+      <h2>Awards & Certifications</h2>
+      <ul>
+        <li>ACE - Bright Beginner Award FY23-Q3</li>
+        <!-- Example: Microsoft Certified: Azure Developer Associate (if you have it) -->
+      </ul>
+    </section>
+
+    <section id="links">
+      <h2>More</h2>
+      <ul>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://github.com/james-vasanth-p" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>James &copy; <!-- use the current year or replace --> 2025. All rights reserved.</p>
+  </footer>
+
+  <!-- Helpful comment: 
+       1) Replace placeholders (names, dates, employer) with your real details.
+       2) Add profile.jpg to this folder (or update img src to the correct filename).
+       3) Create hobbies.html and contact.html if you want a multi-page site.
+       4) Commit to Git, push to GitHub, enable Pages from Settings > Pages to publish. -->
+</body>
 </html>
